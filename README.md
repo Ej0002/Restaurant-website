@@ -1,5 +1,5 @@
 <h1> Restaurant website</h1>
-https://ej0002.github.io/Restaurant-website/
+
 <p> It is an ethiopian restaurant website that allows customers to find information like menus, location, hours of operation and contact info easily without too much distraction. The customer can also get a sense of what the restaurant is about, the atmosphere, service and quality of food through the design aspects of this website</p> 
 <h2>Technologies</h2>
 <li>HTML</li>
