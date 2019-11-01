@@ -4,8 +4,7 @@
 <li>HTML</li>
 <li>CSS</li>
 <li>JavaSCRIPT</li>
-<li>Front end</li>
-<li>Back end</li>
+
 <h2> Features</h2>
 <li> High-quality photos: Images are high quality and present the dishes in a creative way, so that visitors will be more inclined to make a reservation. It includes images of the interior so as they can help portray the atmosphere of our establishment. </li>
 <li>A menu list: customers would want to know what kind of Ethiopian dishes are serving. Some may even want to see your prices, so that is added menu list as well.</li>
@@ -14,7 +13,10 @@
 <li>User friendly: It is responsive so visitors can see we’ve got to offer and make a reservation, too.</li>
 <li>Good template: It has a good template that incorporates many of the features above.</li>
 <h2>Plan for project</h2>
-<li>Three weeks work on front end</li>
-<li>Two weeks work on back end</li>
-<li>Make adjustments</li>
-<li>Submit project</li>
+<li>Week 8:work on front end</li>
+<li>week 9:50 % of homepage </li>
+<li>week 10:finish hompage</li>
+<li>week 11: finish menu page</li>
+<li>week 12:finish Information page</li>
+<li>week 13: finish back end</li>
+<li>week 14: finish project</li>
