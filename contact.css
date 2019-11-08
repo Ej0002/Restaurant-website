@@ -38,7 +38,7 @@ body{
 }
 .left ul li a{
     text-decoration: none;
-    color: #fff;
+    color:white;
     font-weight: 500;
     padding: 8px 16px;
 }
@@ -56,7 +56,7 @@ body{
 }
 .right ul li a{
     text-decoration: none;
-    color: #fff;
+    color: white;
     font-weight: 500;
     padding: 8px 16px;
 }
@@ -73,12 +73,12 @@ body{
 }
 
 .header h1{
-    color:#fff;
+    color:white;
     font-size: 80px;
 }
 
 .header p{
-    color: #fff;
+    color: white;
     font-size: 30px;
     margin-bottom: 20px;
 }
@@ -86,7 +86,7 @@ body{
 .form{
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 20%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
