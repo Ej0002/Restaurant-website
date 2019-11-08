@@ -4,6 +4,7 @@
 <h2>Technologies</h2>
 <li>HTML</li>
 <li>CSS</li>
+<li>Bootstrap</li>
 <li>JavaSCRIPT</li>
 
 <h2> Features</h2>
