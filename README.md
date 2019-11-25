@@ -6,6 +6,8 @@
 <li>CSS</li>
 <li>Bootstrap</li>
 <li>JavaSCRIPT</li>
+<li>nodejs</li>
+<li>mongodb</li>
 
 <h2> Features</h2>
 <li> High-quality photos: Images are high quality and present the dishes in a creative way, so that visitors will be more inclined to make a reservation. It includes images of the interior so as they can help portray the atmosphere of our establishment. </li>
@@ -19,6 +21,6 @@
 <li>week 9:50 % of homepage </li>
 <li>week 10:finish hompage</li>
 <li>week 11: finish menu page</li>
-<li>week 12:finish Information page</li>
-<li>week 13: finish back end</li>
-<li>week 14: finish project</li>
+<li>week 12:finish login page</li>
+<li>week 13: finish registraton page</li>
+<li>week 14: finish backend</li>
