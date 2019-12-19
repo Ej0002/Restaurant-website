@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Contact</title>
+	<title>Home</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 <!--===============================================================================================-->
 	<link rel="icon" type="image/png" href="images/icons/favicon.png"/>
 <!--===============================================================================================-->
@@ -19,7 +17,7 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
 <!--===============================================================================================-->
-
+	
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
 <!--===============================================================================================-->
@@ -32,6 +30,12 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 </head>
 <body>
 
@@ -43,7 +47,6 @@
 				<div class="wrap_header trans-0-3">
 					<!-- Logo -->
 					
-
 					<!-- Menu -->
 					<div class="wrap_menu p-l-45 p-l-0-xl">
 						<nav class="menu">
@@ -55,8 +58,7 @@
 								<li>
 									<a href="menu.html">Menu</a>
 								</li>
-                
-               <li>
+                                <li>
 									<a href="orders.html">Order</a>
 								</li>
 
@@ -81,15 +83,12 @@
 
 					<!-- Social -->
 					<div class="social flex-w flex-l-m p-r-20">
-						<a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
-						<a href="#"><i class="fa fa-facebook m-l-21" aria-hidden="true"></i></a>
-						<a href="#"><i class="fa fa-twitter m-l-21" aria-hidden="true"></i></a>
-
+						
 						<button class="btn-show-sidebar m-l-33 trans-0-4"></button>
 					</div>
 				</div>
 			</div>
-		</div>
+		</div>                
 	</header>
 
 	<!-- Sidebar -->
@@ -105,9 +104,8 @@
 
 			<li class="t-center m-b-13">
 				<a href="menu.html" class="txt19">Menu</a>
-			</li>
-      
-      <li class="t-center m-b-13">
+            </li>
+            <li class="t-center m-b-13">
 				<a href="orders.html" class="txt19">Order</a>
 			</li>
 
@@ -120,7 +118,6 @@
 			</li>
 
 			
-
 			<li class="t-center m-b-33">
 				<a href="contact.html" class="txt19">Contact</a>
 			</li>
@@ -181,138 +178,90 @@
 		</div>
 	</aside>
 
+	</section>
 
-	<!-- Title Page -->
-	<section class="bg-title-page flex-c-m p-t-160 p-b-80 p-l-15 p-r-15" style="background-image: url(images/bg-title-page-01.jpg);">
+
+	<section class="bg-title-page flex-c-m p-t-160 p-b-80 p-l-15 p-r-15" style="background-image: url(images/photo-gallery-16.jpg);">
 		<h2 class="tit6 t-center">
-			Contact
+			
 		</h2>
 	</section>
 
+	<!--order-->
+	
+	<main>
+
+    <div class="container text-center">
+
+      <h1 class="py-4 text-danger">
+        Order Here
+      </h1>
+
+      <div class="d-flex py-2 justify-content-center">
+
+        <form class="w-50">
+
+          <input type="text" id="index" class="form-control" autocomplete="off"
+            placeholder="Name" />
+
+          <input type="text" id="service" class="form-control" autocomplete="off"
+            placeholder="Adress " />
+          <div class="row">
+
+            <div class="col">
+
+              <input type="text" id="username" class="form-control m-0" autocomplete="off"
+                placeholder="Phone Number" />
+
+            </div>
+
+            <div class="col">
+
+              <input type="text" id="password" class="form-control m-0" autocomplete="off"
+                placeholder="Password" />
+
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="d-flex justify-content-center">
+
+        
+      <li class="t-center m-b-13">
+				<a href="pay.html" class="txt19">Order</a>
+			</li>
+
+			<li class="t-center m-b-13">
+				<a href="menu.html" class="txt19">Cancle</a>
+            </li>
+           
+			<li class="t-center m-b-13">
+				<a href="index.html" class="txt19">Exit</a>
+			</li>
+
+	
+
+      </div>
+
+      <div class="d-flex table-data justify-content-center">
+
+        <table class="table table-striped justify-content-center">
 
 
-	<!-- Contact form -->
-	<section class="section-contact bg1-pattern p-t-90 p-b-113">
-		<!-- Map -->
-		
+          <tbody id="tbody">
 
-		<div class="container">
-			<h3 class="tit7 t-center p-b-62 p-t-105">
-				Send us a Message
-			</h3>
+          </tbody>
 
-			<form class="wrap-form-reservation size22 m-l-r-auto "action="https://formspree.io/ruhaej@outlook.com" method="POST"></form>>
-				<div class="row">
-					<div class="col-md-4">
-						<!-- Name -->
-						<span class="txt9">
-							Name
-						</span>
+        </table>
 
-						<div class="wrap-inputname size12 bo2 bo-rad-10 m-t-3 m-b-23">
-							<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="name" placeholder="Name">
-						</div>
-					</div>
+      </div>
 
-					<div class="col-md-4">
-						<!-- Email -->
-						<span class="txt9">
-							Email
-						</span>
+      <div id="notfound"></div>
 
-						<div class="wrap-inputemail size12 bo2 bo-rad-10 m-t-3 m-b-23">
-							<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="email" placeholder="Email">
-						</div>
-					</div>
+    </div>
 
-					<div class="col-md-4">
-						<!-- Phone -->
-						<span class="txt9">
-							Phone
-						</span>
-
-						<div class="wrap-inputphone size12 bo2 bo-rad-10 m-t-3 m-b-23">
-							<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="phone" placeholder="Phone">
-						</div>
-					</div>
-
-					<div class="col-12">
-						<!-- Message -->
-						<span class="txt9">
-							Message
-						</span>
-						<textarea class="bo-rad-10 size35 bo2 txt10 p-l-20 p-t-15 m-b-10 m-t-3" name="message" placeholder="Message"></textarea>
-					</div>
-				</div>
-
-				<div class="wrap-btn-booking flex-c-m m-t-13">
-					<!-- Button3 -->
-					<button type="submit" class="btn3 flex-c-m size36 txt11 trans-0-4">
-						Submit
-					</button>
-				</div>
-			</form>
-
-			<div class="row p-t-135">
-				<div class="col-sm-8 col-md-4 col-lg-4 m-l-r-auto p-t-30">
-					<div class="dis-flex m-l-23">
-						<div class="p-r-40 p-t-6">
-							<img src="images/icons/map-icon.png" alt="IMG-ICON">
-						</div>
-
-						<div class="flex-col-l">
-							<span class="txt5 p-b-10">
-								Location
-							</span>
-
-							<span class="txt23 size38">
-								8th floor,No. 759, erhuan east road, wuxing district, huzhou city, zhejiang province
-							</span>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-8 col-md-3 col-lg-4 m-l-r-auto p-t-30">
-					<div class="dis-flex m-l-23">
-						<div class="p-r-40 p-t-6">
-							<img src="images/icons/phone-icon.png" alt="IMG-ICON">
-						</div>
-
-
-						<div class="flex-col-l">
-							<span class="txt5 p-b-10">
-								Call Us
-							</span>
-
-							<span class="txt23 size38">
-								(+86) 17854781167
-							</span>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-8 col-md-5 col-lg-4 m-l-r-auto p-t-30">
-					<div class="dis-flex m-l-23">
-						<div class="p-r-40 p-t-6">
-							<img src="images/icons/clock-icon.png" alt="IMG-ICON">
-						</div>
-
-
-						<div class="flex-col-l">
-							<span class="txt5 p-b-10">
-								Opening Hours
-							</span>
-
-							<span class="txt23 size38">
-								09:30 AM – 11:00 PM <br/>Every Day
-							</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
+  </main>
 
 	<!-- Footer -->
 	<footer class="bg1">
@@ -536,6 +485,20 @@
 	<script type="text/javascript" src="vendor/lightbox2/js/lightbox.min.js"></script>
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+
+  <script src="https://unpkg.com/dexie@latest/dist/dexie.js"></script>
+
 
 </body>
 </html>
